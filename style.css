@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  background-color: #fdf4f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo img {
+  height: 40px;
+  margin-left: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.daily-tour {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.intro-image img {
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.intro-text {
+  padding: 0 2rem;
+}
+
+h1 {
+  color: #2d2727;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  color: #454545;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #331d2c;
+  font-family: "Roboto", sans-serif;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.days-nav-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.day-link {
+  color: #007bff;
+}
+
+.day-container {
+  display: flex;
+  height: 90%;
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+.carousel-container {
+  width: 500px;
+}
+
+.carousel-img {
+  padding: 20px;
+  border-radius: 32px;
+  width: 500px;
+  height: 500px;
+}
+
+.day-heading {
+  color: palevioletred;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 600;
+}
+.day-description-container {
+  padding: 20px;
+}
+
+.day-description {
+  font-size: 16px;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 12px;
+  text-align: justify;
+}
+
+ul {
+  text-align: justify;
+  line-height: 22px;
+}
+
+.costs {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.terms {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.contact {
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 50px;
+}
+
+footer p {
+  color: #fff;
+}
